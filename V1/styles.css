@@ -9,3 +9,35 @@ Filename: styles.css
 */
 
 /*Structural Styles */
+/*M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)*/
+html{
+    background-color: black
+}
+body{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    color: hotpink;
+}
+header{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hotpink;
+    border-color: hotpink;
+}
+article{
+    color:hotpink;}
+/*M2LO3 Demonstrate style precedence and inheritance in CSS (CSS, this item should be specified 2 times, once where precedence is applied 
+and once where inheritance is applied; see 2-3d Style Specificity and Precedence, and 2-3e Style Inheritance)*/
+body > p{
+    text-align: center;
+    font-size: 2.em;
+}
+
+/*Navigation Styles */
+
+
+/*Section Styles */
+section h1{
+  font-size: 4.em;
+  margin: auto;  
+}
