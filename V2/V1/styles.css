@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/*
+CIS Web Development 1 Project V1
+Author: Brittany Muckle
+Date: 5/15/2020
+
+Filename: styles.css
+*/
+
+
+/* Structural Styles */
+html{
+    background-color: black;
+  }
+/*M3LO6 Demonstrate formatting a grid (CSS, note the CSS rules 
+that do this and what their impact is on the HTML; this can be 
+old div-class based grids, or new CSS3 grids)*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 10px 20px 20px 10px;
+  grid-template-rows: auto auto auto auto;
+}
+  body{
+    color: white;
+    margin: auto;
+/*M4LO3 Demonstrate the use of rounded corners for borders (CSS) The borders on my webpage are rounned
+off instead of square. I also added color and a radius*/
+    border-style: groove;
+    border-color: palevioletred;
+    border-radius: 10px;
+  }  
+  figure{
+    border: thin palevioletred solid;
+  }
+  /*M4LO8 Demonstrate the use of transformations for 2D or 3D images 
+(CSS, note one of these two in your CSS and explain its impact on the HTML) I stretched the size
+of my figure by 1 times itself across the x-asix*/
+  figure{
+  transform: scaleX(1);
+}
+/* Filter Styles */
+/*M3LO11 Demonstrate -prefix- style browser extensions use in CSS 
+(CSS note the use in your CSS and what the purpose is) I changed the contrast of my figure and 
+in order to add a filter I needed a prefix- style browser extension*/
+  figure#figure {
+    -webkit-filter: saturate(2.0) contrast(2.5);
+    filter: saturate(2.0) contrast(2.5);
+    }
+  header{ 
+    background-color: black;
+    color: palevioletred;
+    margin: auto; 
+    text-align: center;
+  }
+/*M3LO8B Demonstrate relative positioning 
+(CSS, note use in your CSS and describe what its impact is on the HTML) I made the div
+element reative to it's normal position*/
+  div.relative{
+    position: relative;
+    display: block;
+    top: 100px;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+  }
+  .menu{
+    background-color: black;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+  }
+  .menu li{
+    display:inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .kenziephotos{
+  /*M4LO4 Demonstrate the use of gradients (CSS) The background has a gradient applied in the middle
+  of my webpage from the top to bottom*/
+    background-image: linear-gradient( black, palevioletred);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .kenziephotos li{
+    display:inline-block;
+  }
+  body > p{
+    text-align:center;
+    font-size: 1.1em;
+  }
+  h2{
+  /*M4LO5 Demonstrate the use of text or box shadowing 
+  (CSS, note one of these two in your CSS and explain its impact on the HTML) The Testimonials section 
+  of my webpage has the text shadowing behind the original lettering.*/
+   text-shadow: palevioletred 2px 2px;
+  }
+  /*M3LO2 Demonstrate floating elements
+  (CSS, note where you have specified a floating element and what its impact is) I floated the customer's comment
+  to the right of the photo she posted.*/
+  blockquote.p {
+    float: right;
+  }
+  /*M3LO8A Demonstrate absolute positioning
+  (CSS, note use in your CSS and describe what its impact is on the HTML) Absolute positioning was done because 
+  the comment from the company is taken out of the flow of the document depening on it's positioning.*/
+  .positioning {
+    position: absolute;
+    background:palevioletred;
+    top: 20px;
+    right: 20px;
+  }
+  /*M3LO3 Demonstrate a clearing floats (CSS, note where you have used a clear and what its impact is) The address
+  section is clearing the floating blockquote because with the blockquote floating the address section is 
+  shifted*/
+  address {
+    clear: none;
+  }
+  address{
+    text-align:center;
+    color: palevioletred;
+    font-size: large;
+  }
+  /* Navigation Styles */
+ nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+  }

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+/*
+CIS Web Development 1 Project V1
+Author: Brittany Muckle
+Date: 5/2/2020
+
+Filename: layout.css
+*/
+/*
+M3LO1 Demonstrate the use of a CSS reset style sheet (CSS, note where you have CSS reset rules)*/
+html, body, div, h1, h2, p, blockquote, 
+img, ul, li, footer, header, menu, nav{
+    margin: 0;
+    padding: 0;
+    border: auto;
+    font-size: large;
+    vertical-align: auto;
+}
