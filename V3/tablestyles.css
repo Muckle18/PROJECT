@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/*
+CIS Web Development 1 Project V3
+Author: Brittany Muckle
+Date: 5/29/2020
+
+Filename: tablestyles.css
+*/
+
+
+/* Table Styles */
+/*M6LO7 Demonstrate how to format a table with CSS (CSS, group your table styles together and note the overall impact they have on the HTML)*/
+table {
+    border: 8px solid pink;
+}
+
+th {
+    border: 3px solid black;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+td {
+    border: 2px solid black;
+    text-align: center;
+}

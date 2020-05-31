@@ -1,35 +1,47 @@
 <!DOCTYPE html>
-<!--CIS Web Development V1 Project
+<!--CIS Web Development V3 Project
 Author: Brittany Muckle
-Date: 5/2/2020
+Date: 5/29/2020
 
 Filename: about.html-->
 
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>KenzieKEssentials</title>
-        <a href="index.html"><img src="KenzieKEssentials.png" alt="eyelashes"/></a>
-    </head>
-    <body>
-        <nav>
-            <ul>
-               <li>V2 was a bit better than V1</li>
-               <li>I am starting to understand more how the elements in the CSS file work</li>
-               <li>I was able to use the majority of the objecctives on this weeks project</li> 
-            </ul>
-        </nav>
-            <p>For V2 I was able to get a head start on my project. I was much better prepared and ready for 
-            the challenge. Although my page is still very basic I was able to add a bunch of code. This weeksI did 
-            a lot of reading and studying. I would spend about 2-3 hrs a day on writing. Some days were better than others.
-            Throughout my review I slowly started getting a better understanding of the elements and how they work. 
-            </p>
-            <ol>
-                <li>I will re-read Ch4 and look over our Cengage homework assignments.</li>
-                <li>Read next week's learning objectives and get a headstart on next week's work.</li>
-                <li>Watch the PowerPoint slides and take notes.</li>
-            </ol>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="lashes, beauty, Kenzie, Atlanta" />                 
+    <link href="styles.css" rel="stylesheet" />      
+    <link href="layout.css" rel="stylesheet" />
+    <title>KenzieKEssentials</title>
+</head>
+<body>
+    <header>      
+    <figure>
+    <img src="KenzieKEssentials.png" width="400px" height="150px" alt="KenzieKEssentials" /> 
+    </figure>   
+    <nav>     
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Shop.html">Shop</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="FAQs.html">Customer FAQs</a></li>
+        <li><a href="About.html">About Project HTML</a></li>
 
-    </body>
-
+    </ul>
+    </nav>
+    </header>
+    <!--M5LO5 Demonstrate the use of flexboxes on a web page 
+    (CSS document where you use flexboxes; explain their impact on the page's layout; this can be a new page or a redo of an existing page)-->
+    <div class="flex-container">
+    <!--M5LO7 Demonstrate use of properties of flexbox containers 
+    (CSS, document what flexbox container properties you use and their impacts, for one CSS selector using them)-->
+        <div id="flex-item1">V3 went very well for me this week.I was able to finally use all of my learning objectives and actually
+        understand what they meant and how they worked within my website. The difference I made this week was I got a head start on my reading
+        and I was able to practice the learning objectives.</div><br>
+        <div id="flex-item2">This week I adding the following to include: flexboxes,items and containers to demonstrate my customer comments; a calendar to 
+            demonstrate the use of tables and span rows;created a table styles css sheet to format a table in html; a media styles sheet
+            for mobile devices/pc and a pulldown menu to on the home page. </div><br>
+        <div id="flex-item3">Errors: After adding my calendar to my homepage the entire format shifted. I still haven't figured out a solution.
+            Also, when I added the pulldown menu hover option a link menu comes up. I still have to workout the kinks for that.</div><br>
+    </div>
+    <footer></footer>
+</body>    
 </html>

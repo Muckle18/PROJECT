@@ -2,9 +2,9 @@
 <html>
 
     <head>
-    <!--CIS Web Development 1 Project V1
+    <!--CIS Web Development 1 Project V3
     Author: Brittany Muckle
-    Date: 5/13/2020
+    Date: 5/29/2020
 
     Filename: index.html-->
            
@@ -12,48 +12,113 @@
         <meta name="keywords" content="lashes, beauty, Kenzie, Atlanta" />                 
         <link href="styles.css" rel="stylesheet" />      
         <link href="layout.css" rel="stylesheet" />
-        <title></title>
+        <link href="tablestyles.css" rel="stylesheet" />
+    <!--M5LO3 Use media queries to format a page differently for phones vs. PCs. 
+        (CSS, note where these are in your CSS and describe the overall impact they have on the site)-->
+        <link href="mediastyles.css" rel="stylesheet" />
+        <title>KenzieKEssentials</title>
     </head>
     <body>
-        <header>
-    <!--M4LO1 Demonstrate the use of figure boxes I used a figure box so that I could 
-        edit and manipulate the style of my logo(HTML)-->        
+        <header>     
         <figure>
-        <img src="KenzieKEssentials.png" width="400px" height="150px" atl="KenzieKEssentials" /> 
+        <img src="KenzieKEssentials.png" width="400px" height="150px" alt="KenzieKEssentials" /> 
         </figure>   
         <nav>     
         <ul class="menu">
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Shop.html" class="submenuTitle">Shop</a>
+            <ul class="submenu">
+                <li><a href="Angelica.png">AngelicaLash</a></li>
+                <li><a href="Brittany.png">BrittanyLash</a></li>
+                <li><a href="Joy.png">JoyLash</a></li>
+                <li><a href="Kenzie.png">KenzieLash</a></li>
+                <li><a href="Kharisma.png">KharismaLash</a></li>
+                <li><a href="Nia.png">NiaLash</a></li>
+                <li><a href="QueenBee.png">QueenBeeLash</a></li>
+                <li><a href="Samantha.png">SamanthaLash</a></li>
+            </ul>
+            </li>
+
             <li><a href="AboutUs.html">About Us</a></li>
             <li><a href="FAQs.html">Customer FAQs</a></li>
+            <li><a href="About.html">About Project HTML</a></li>
 
         </ul>
-        </nav>
-        
-        <h1>Premium quality mink lashes!</h1>    
-        </header>  
-    <!--M4LO7 Demonstrate the use of image maps, including determining x and y values (HTML) When you select a 
-    mapped section you should be redirected to the shop page.-->
+        </nav>   
+        </header> 
+        <!--M6LO3 Demonstrate how to create a table (HTML, explain table's purpose; 
+        it needs to be appropriate data for a table, and have at least 2 columns and 3 rows, 
+        appropriate use of thead/tbody/tfooter, and cells using th/td appropriately)
+        M6LO4 Demonstrate how to span multiple rows or multiple columns in a table 
+        (HTML, document where you write HTML that causes a multi-row or multi-column span; 
+        say which one it is as well: row or column, or both)-->
+        <table>
+        <thead>
+            <tr>
+                <th rowspan="2">KenzieK June Monthly Sales!</th>    
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead> 
+        <tbody>
+            <tr>
+            <th>Week 1 - Get to know KenzieK</th>
+            <td>JUNE 1 - Buy 2 get 1 free</td>
+            <td>JUNE 2 - </td>
+            <td>JUNE 3 - $3 HairClips</td>
+            <td>JUNE 4 - YouTube Lash tutorial video uploaded at 2pm EST</td>
+            <td>JUNE 5 - </td>
+            <td>JUNE 6 - INSTAGRAM LIVE with our owner (lash tips) 6pm EST</td>
+            <td>JUNE 7 - </td>
+            </tr>
+
+
+            <tr>
+            <th>Week 2 - Enjoy free shipping on orders over$35</th>
+            <td>JUNE 8 - Free shipping on orders over $35 usd</td>
+            <td>JUNE 9 - Free shipping on orders over $35 usd</td>
+            <td>JUNE 10 - Free shipping on orders over $35 usd</td>
+            <td>JUNE 11 - Free shipping on orders over $35 usd</td>
+            <td>JUNE 12 - Free shipping on orders over $35 usd</td>
+            <td>JUNE 13 - Free shipping on orders over $35 usd</td>
+            <td>JUNE 14 - Free shipping on orders over $35 usd</td>
+            </tr>
+
+            <tr>
+            <th>Week 3 - Mystery?????????? Enter the special code of the day to get a discount at checkout!</th>
+            <td>JUNE 15 - MYSTERY CODE available on IG @ 11am EST</td>
+            <td>JUNE 16 - MYSTERY CODE available on IG @ 11am EST</td>
+            <td>JUNE 17 - MYSTERY CODE available on IG @ 11am EST</td>
+            <td>JUNE 18 - MYSTERY CODE available on IG @ 11am EST</td>
+            <td>JUNE 19 - MYSTERY CODE available on IG @ 11am EST</td>
+            <td>JUNE 20 - MYSTERY CODE available on IG @ 11am EST</td>
+            <td>JUNE 21 - MYSTERY CODE available on IG @ 11am EST</td>
+            </tr>
+
+            <tr>
+            <th>Week 4 - BOGO week!!</th>
+            <td>JUNE 22 - Buy ANGELICA, get LEIAH for free!</td>
+            <td>JUNE 23 - </td>
+            <td>JUNE 24 - Buy NIA, get BRITTANY for free!</td>
+            <td>JUNE 25 - </td>
+            <td>JUNE 26 - Buy 2 of ANY lash, get one for free!</td>
+            <td>JUNE 27 - </td>
+            <td>JUNE 28-30 - Buy 1 of ANY Lash, get KENZIE for free </td>    
+
+            </tr>
+        </tbody>
+        </table>
+
         <ul class="kenziephotos">
-            <li><img src="Leiah.png" atl="LeiahLash" height="250px" width="300px" /></li>
-            <li><img src="Angelica.png" atl="AngelicaLash" height="250px" width="300px" /></li>  
-            <li><img src="Brittany.png" atl="BrittanyLash" height="250px"width="300px" /></li>
+            <li><img src="Leiah.png" alt="LeiahLash" height="250px" width="300px" /></li>
+            <li><img src="Angelica.png" alt="AngelicaLash" height="250px" width="300px" /></li>  
+            <li><img src="Brittany.png" alt="BrittanyLash" height="250px" width="300px" /></li>
         </ul>
-        <p> &#128512;</p>
-        <div>
-        <h2>Testimonials &hearts;&hearts;&hearts;</h2>
-            <blockquote><p>KenzieKEssentials has some of the best lashes ever! 
-            I will not put any other brand on my eyes. #CRUELTYFREE
-            </p><cite><em>&mdash;</em> Quin D (Smith)</cite></blockquote>
-            
-            <blockquote><p><img src="JoyLashCustomerReview.jpg" width="200px" height="200px"/> Here is a picture of my favorite lash.
-             I got all dolled up for a girls night out!!! I recieved so many compliments.
-             In this photo I am wearing the JOY LASH!
-            </p><cite><em>&mdash;</em> Taleatha (Sanders)</cite></blockquote>
-            <p class="positioning"> We are a 100% animal cruelty free company and we pride ourselves on providing an amazing product!!!</p>
-
-        </div>
 
     <footer>    
         <address><strong>KenzieKEssentials</strong><br/>
@@ -61,7 +126,6 @@
             Atlanta GA 30058<br/>
             E-mail <a href="mailto:kenziekessentials@fake.com">kenziekessentials@fake.com</a><br/>
             Phone <a href="tel:+15555554455">(555)555-4455</a>
-
         </address> 
     </footer>
     </body>
