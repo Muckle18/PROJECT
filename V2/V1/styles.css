@@ -11,7 +11,7 @@ Filename: styles.css
 
 /* Structural Styles */
 html{
-    background-color: black;
+    background-color: white;
   }
 /*M3LO6 Demonstrate formatting a grid (CSS, note the CSS rules 
 that do this and what their impact is on the HTML; this can be 
@@ -22,7 +22,7 @@ old div-class based grids, or new CSS3 grids)*/
   grid-template-rows: auto auto auto auto;
 }
   body{
-    color: white;
+    color: pink;
     margin: auto;
 /*M4LO3 Demonstrate the use of rounded corners for borders (CSS) The borders on my webpage are rounned
 off instead of square. I also added color and a radius*/
@@ -37,7 +37,7 @@ off instead of square. I also added color and a radius*/
 (CSS, note one of these two in your CSS and explain its impact on the HTML) I stretched the size
 of my figure by 1 times itself across the x-asix*/
   figure{
-  transform: scaleX(1);
+  transform: scaleX(1.5);
 }
 /* Filter Styles */
 /*M3LO11 Demonstrate -prefix- style browser extensions use in CSS 
@@ -48,14 +48,11 @@ in order to add a filter I needed a prefix- style browser extension*/
     filter: saturate(2.0) contrast(2.5);
     }
   header{ 
-    background-color: black;
+    background-color:white;
     color: palevioletred;
     margin: auto; 
     text-align: center;
   }
-/*M3LO8B Demonstrate relative positioning 
-(CSS, note use in your CSS and describe what its impact is on the HTML) I made the div
-element reative to it's normal position*/
   div.relative{
     position: relative;
     display: block;
@@ -65,7 +62,7 @@ element reative to it's normal position*/
     height: 200px;
   }
   .menu{
-    background-color: black;
+    background-color:white;
     padding: 20px;
     list-style: none;
     text-align: center;
@@ -80,9 +77,7 @@ element reative to it's normal position*/
     padding-right: 10px;
   }
   .kenziephotos{
-  /*M4LO4 Demonstrate the use of gradients (CSS) The background has a gradient applied in the middle
-  of my webpage from the top to bottom*/
-    background-image: linear-gradient( black, palevioletred);
+    background-image: linear-gradient( white, palevioletred);
     padding: 20px;
     text-align: center;
   }
@@ -95,35 +90,15 @@ element reative to it's normal position*/
     font-size: 1.1em;
   }
   h2{
-  /*M4LO5 Demonstrate the use of text or box shadowing 
-  (CSS, note one of these two in your CSS and explain its impact on the HTML) The Testimonials section 
-  of my webpage has the text shadowing behind the original lettering.*/
    text-shadow: palevioletred 2px 2px;
   }
-  /*M3LO2 Demonstrate floating elements
-  (CSS, note where you have specified a floating element and what its impact is) I floated the customer's comment
-  to the right of the photo she posted.*/
   blockquote.p {
     float: right;
   }
-  /*M3LO8A Demonstrate absolute positioning
-  (CSS, note use in your CSS and describe what its impact is on the HTML) Absolute positioning was done because 
-  the comment from the company is taken out of the flow of the document depening on it's positioning.*/
-  .positioning {
-    position: absolute;
-    background:palevioletred;
-    top: 20px;
-    right: 20px;
-  }
-  /*M3LO3 Demonstrate a clearing floats (CSS, note where you have used a clear and what its impact is) The address
-  section is clearing the floating blockquote because with the blockquote floating the address section is 
-  shifted*/
-  address {
-    clear: none;
-  }
   address{
+    background: pink;
     text-align:center;
-    color: palevioletred;
+    color: black;
     font-size: large;
   }
   /* Navigation Styles */

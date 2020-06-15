@@ -3,7 +3,7 @@
 /*
 CIS Web Development 1 Project V3
 Author: Brittany Muckle
-Date: 5/29/2020
+Date: 6/15/2020
 
 Filename: styles.css
 */
@@ -11,15 +11,8 @@ Filename: styles.css
 
 /* Structural Styles */
 html{
-    background-color: rgb(117, 111, 111);
+  background-image: linear-gradient(rgb(117, 111, 111), pink);
   }
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 10px 20px 20px 10px;
-  grid-template-rows: auto auto auto auto;
-}
-
 figure{
   border: thin pink;
   margin: auto;
@@ -27,46 +20,44 @@ figure{
   text-align: center;
 }
   body {
-    color: pink;
+    color: black;
     margin: auto;
     border-style: groove;
     border-color: black;
     border-radius: 10px;
+    text-align: center;
   }  
-
   header{ 
-    background-color:rgb(117, 111, 111);
     color: black;
     margin: auto; 
     text-align: center;
   }
-
-  div.relative { 
-    position: relative;
-    display: block;
-    top: 100px;
-    right: 0px;
-    width: 200px;
-    height: 200px;
-  }
   .menu {
-    background-color: rgb(117, 111, 111);
-    padding: 20px;
     list-style: none;
     text-align: center;
+  }
+  /*M8LO10 Demonstrate a 
+  CSS animation or transition*/
+  .menu a {
+    color:black;
+    font-size: 1em;
+    letter-spacing:0em;
+  }
+  .menu a:hover {
+    color:plum;
+    font-size: 2em;
+
   }
   .menu li {
     display:inline-block;
     list-style-type: none;
     text-decoration: none;
     font-size: 20px;
-    margin: 1em;
+    margin: auto;
     padding-left: 10px;
     padding-right: 10px;
   }
   .kenziephotos {
-    background-image: linear-gradient(rgb(117, 111, 111), pink);
-    padding: 20px;
     text-align: center;
   }
   .kenziephotos li {
@@ -82,21 +73,30 @@ figure{
     display: inline-block;
     
   }
-  body > p {
-    text-align:center;
-    font-size: 1.1em;
+  div {
+    text-align: center;
   }
-  /*PulldownMenu Styles*/
-  /*M5LO4 Use CSS for pull-down menus (or collapsible/expandable areas) 
-  (CSS, note where the menu is on your site and how it behaves)*/
-  ul.submenu {
-    display: none;
+  /*M7LO11 Demonstrate how to format a form with CSS 
+  (group your form styles together in your CSS file, and document their overall impact on the form)*/
+  div#formRow {
+    text-align: left;
+    -webkit-flex: 1 1 150px;
+    flex: 1 1 150px;
   }
-  a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
-    display: block;
-  }
+ div#buttons {
+   text-align: center;
+ }
+ /*M8LO12 Demonstrate how to format media with CSS*/
+ video {
+   display: block;
+   margin: 10px;
+   width: 50%;
+ }
   h1 {
     font: xx-large;
+    text-align: center;
+  }
+  ul li {
     text-align: center;
   }
   p {
@@ -104,19 +104,17 @@ figure{
     font: xx-large;
     font-style: italic;
   }
-  /*M5LO7 Demonstrate use of properties of flexbox containers 
-  (CSS, document what flexbox container properties you use and their impacts, for one CSS selector using them)*/
   .flex-container {
     display: flex;
     flex-direction: row;
-    background-color: blue;
+    background-color: pink;
   }
   #flex-item1 {
-    background-color: blueviolet;
+    background-color: white;
     color: black;
   }
   #flex-item2 {
-    background-color: chartreuse;
+    background-color: plum;
     color: black;
   }
   #flex-item3 {
@@ -124,20 +122,14 @@ figure{
     color: black;
   }
   footer {
-    background: pink;
     color: black;
+    text-align: center;
   }
-  /*M5LO7 Demonstrate use of properties of flexbox containers 
-  (CSS, document what flexbox container properties you use and their impacts, for one CSS selector using them)*/
   .Flex-Container-Comments {
     display: flex;
     flex-direction: row;
     background-color: pink;
   }
-  /*M5LO5 Demonstrate the use of flexboxes on a web page 
-  (CSS document where you use flexboxes; explain their impact on the page's layout; this can be a new page or a redo of an existing page)
-  M5LO6 Demonstrate use of properties of flexbox items 
-  (CSS, document what flexbox item properties you use and their impacts, for one CSS selector using them)*/
   #QuinD {
     background-color: rgb(117, 111, 111); 
     color: black;
@@ -154,7 +146,6 @@ figure{
   .aboutdiv {
     text-align: center;
   }
-
   address{
     text-align:center;
     color: black;

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <!--CIS Web Development 1 Project V3
+    Author: Brittany Muckle
+    Date: 6/14/2020
+
+    Filename: aboutus.html-->
+           
+        <meta charset="utf-8" />
+        <meta name="keywords" content="lashes, beauty, Kenzie, Atlanta" />                 
+        <link href="styles.css" rel="stylesheet" />      
+        <link href="layout.css" rel="stylesheet" />
+        <title></title>
+    </head>
+    <body>
+        <header>      
+        <figure>
+        <img src="KenzieKEssentials.png" width="400px" height="150px" alt="KenzieKEssentials" /> 
+        </figure>   
+        <nav>     
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="faqs.html">Customer FAQs</a></li>
+            <li><a href="about.html">About Project HTML</a></li>
+
+        </ul>
+        </nav>
+        </header>
+        <p>Welcome to the Kenzie K Essentials experience.We are a small luxurious Beauty Brand base out of Atlanta, Ga in 2017 Founded by Amanda Ransom.We Help Real women put an extra edge in their everyday look. Our Mission is to bring the best quality of ingenious products at an affordable price.
+
+            Our core values consist of:&emsp;
+            <ul>
+            <li> - Quality, by bringing the best materials together to provide a premium product</li>
+            <li> - Cruelty Free, causing no harm to any animals in the making of this product</li>
+            <li> - Diversity, listening to the wants and needs of everyone to create products for our consumers</li>
+            <li><strong>We are so excited to provide you with the perfect lash for your everyday looks.</strong></li></ul>
+
+<!--M7LO5 Demonstrate the use of a text box in a form
+M7LO7 Demonstrate the use of radio buttons in a form
+M7LO8 Demonstrate the use of a selection list in a form
+M7LO9 Demonstrate the use of a text area in a form
+M7LO10 Demonstrate the use of a submit button in a form-->
+            <fieldset id="customerinformation">
+             <legend> Subscribe to our monthly newsletter</legend> 
+             <div class="formRow">
+                <label for="name">Name*</label>
+                <input name="customername" id="name" type="text" />
+            </div>
+            <div class="formRow">
+                <label for="ContactNumber">Contact Number</label>
+                <input name="customerphone" id="phone" type="tel" />
+            </div>
+            <div class="formRow">
+                <label>Can we send you text messaging updates?</label>
+                <fieldset class="optGroup">
+                    <label for="tYes">Yes</label>
+                    <input name="tMessage" id="tYes" value="Yes" type="radio"/>
+                    <label for="tNo">No</label>
+                    <input name="tMessage" id="tNo" value="No" type="radio"/>
+                </fieldset>
+            </div>
+            <div class="formRow">
+                <label for="CustomerEmail">E-Mail*</label>
+                <input name="customeremail" id="mail" type="email" />  
+            </div>
+            <div class="formRow">
+                <label for="info">Where did you hear about us?
+                <br />(Select all that apply)   
+                </label>
+                <select name="socialmedia" id="info" size="4" multiple>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div id="buttons">
+                <input type="Submit" value="Submit" />
+                <input type="Reset" value="Cancel" />
+            </div>
+            </fieldset>
+        
+        </p>
+        <footer></footer>
+    </body>
+</html>
+        

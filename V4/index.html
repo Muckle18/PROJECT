@@ -13,30 +13,17 @@
         <link href="styles.css" rel="stylesheet" />      
         <link href="layout.css" rel="stylesheet" />
         <link href="tablestyles.css" rel="stylesheet" />
-    <!--M5LO3 Use media queries to format a page differently for phones vs. PCs. 
-        (CSS, note where these are in your CSS and describe the overall impact they have on the site)-->
         <link href="mediastyles.css" rel="stylesheet" />
         <title>KenzieKEssentials</title>
     </head>
     <body>
+        <div class="bodydiv">
         <header>     
-        <figure>
-        <img src="KenzieKEssentials.png" width="400px" height="150px" alt="KenzieKEssentials" /> 
-        </figure>   
+        <img src="KenzieKEssentials.png" width="400px" height="150px" alt="KenzieKEssentials" />   
         <nav>     
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
-            <li><a href="Shop.html" class="submenuTitle">Shop</a>
-            <ul class="submenu">
-                <li><a href="Angelica.png">AngelicaLash</a></li>
-                <li><a href="Brittany.png">BrittanyLash</a></li>
-                <li><a href="Joy.png">JoyLash</a></li>
-                <li><a href="Kenzie.png">KenzieLash</a></li>
-                <li><a href="Kharisma.png">KharismaLash</a></li>
-                <li><a href="Nia.png">NiaLash</a></li>
-                <li><a href="QueenBee.png">QueenBeeLash</a></li>
-                <li><a href="Samantha.png">SamanthaLash</a></li>
-            </ul>
+            <li><a href="Shop.html">Shop</a>
             <li><a href="aboutus.html">About Us</a></li>
             <li><a href="faqs.html">Customer FAQs</a></li>
             <li><a href="about.html">About Project HTML</a></li>
@@ -45,12 +32,12 @@
         </ul>
         </nav>   
         </header> 
-        <!--M6LO3 Demonstrate how to create a table (HTML, explain table's purpose; 
-        it needs to be appropriate data for a table, and have at least 2 columns and 3 rows, 
-        appropriate use of thead/tbody/tfooter, and cells using th/td appropriately)
-        M6LO4 Demonstrate how to span multiple rows or multiple columns in a table 
-        (HTML, document where you write HTML that causes a multi-row or multi-column span; 
-        say which one it is as well: row or column, or both)-->
+        </div>
+        <ul class="kenziephotos">
+            <li><img src="Leiah.png" alt="LeiahLash" height="250px" width="300px" /></li>
+            <li><img src="Angelica.png" alt="AngelicaLash" height="250px" width="300px" /></li>  
+            <li><img src="Brittany.png" alt="BrittanyLash" height="250px" width="300px" /></li>
+        </ul>
         <table>
         <thead>
             <tr>
@@ -112,20 +99,13 @@
             </tr>
         </tbody>
         </table>
-
-        <ul class="kenziephotos">
-            <li><img src="Leiah.png" alt="LeiahLash" height="250px" width="300px" /></li>
-            <li><img src="Angelica.png" alt="AngelicaLash" height="250px" width="300px" /></li>  
-            <li><img src="Brittany.png" alt="BrittanyLash" height="250px" width="300px" /></li>
-        </ul>
-
-    <!--<footer>    
+        <footer><div class="footerdiv">  
         <address><strong>KenzieKEssentials</strong><br/>
             PO BOX 22757<br/>
             Atlanta GA 30058<br/>
             E-mail <a href="mailto:kenziekessentials@fake.com">kenziekessentials@fake.com</a><br/>
             Phone <a href="tel:+15555554455">(555)555-4455</a>
-        </address> 
-    </footer>-->
+        </address></div>  
+    </footer>
     </body>
 </html>
